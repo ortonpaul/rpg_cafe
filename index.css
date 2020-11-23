@@ -1,0 +1,177 @@
+body {
+    background-color: papayawhip;
+}
+
+.header {
+    text-align: center;
+    background-color: #D8BFD8;
+}
+
+#headerText {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #846267;
+    font-size: 50px;
+    font-family: 'Piazzolla', serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#navbar {
+    background-color: #aeb4a9;
+    color: #846267;
+    width: 100%;
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar .search-container {
+  float: right;
+}
+
+#navbar input[type=text] {
+/*  float: right;*/
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+/*  margin-right: 16px;*/
+  font-size: 17px;
+}
+
+#navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#navbar .search-container button:hover {
+  background: #ccc;
+}
+
+a {
+    color: #846267;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Piazzolla', serif;
+}
+
+a.active {
+  color: papayawhip;
+}
+
+#lemons {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.product {
+  width: 250px;
+  height: 400px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  position: relative;
+  padding: 15px;
+  font-family: 'Piazzolla', serif;
+  margin: 10px;
+}
+
+.product > img {
+  min-width: 250px;
+  max-width: 250px;
+  margin-bottom: 5px;
+  border: 2px solid gray;
+}
+
+.name {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline;
+}
+
+.price {
+  font-size: 20px;
+  display: inline;
+  position: absolute;
+  right: 10px;
+  color: gray;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+.add-button {
+  width: 90%;
+  height: 40px;
+  border: 0px;
+  background-color: #aeb4a9;
+  color: #846267;
+  font-size: 20px;
+  position: absolute;
+  left: 5%;
+  bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Piazzolla', serif;
+}
+
+.add-button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+#Cafe {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    opacity: 90%;
+    filter: grayscale(30%);
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3px;
+    color: floralwhite;
+    text-align: center;
+    font-family: 'Piazzolla', serif;
+    background-color: rgb(117, 117, 117, 0.35);
+    background-size: auto;
+}
+
+.text {
+
+    font-size: 81px;
+    padding: 20px 20px 0px 20px;
+}
+
+.contentText {
+    color: floralwhite;
+    font-size: 24px;
+    font-family: 'Piazzolla', serif;
+    text-align: center;
+    padding: 20px 0px 20px 20px;
+    resize: none;
+    background-color: rgb(0, 0, 0, 0);
+}
